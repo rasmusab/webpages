@@ -1,4 +1,4 @@
-/* Pistachio palette: http://encycolorpedia.com/93c572 */
+/*http://www.colourlovers.com/palette/188306/i_am_NOT_yours*/
 
 * {
     padding: 0;
@@ -10,7 +10,7 @@
 body { 
     font-size: 95%;
     color: #000;  
-    background-color: #abd191; 
+    background-color: #FF9E1F;
 }
 #header {
     margin: 0;
@@ -42,14 +42,14 @@ a:link {
     text-decoration: none;
 }
 a.external {
-    color: blue;
+    color: #CC2D2D;
 }
 a.external:hover {
     border-bottom-style: solid;
     border-width: 1pt;
 }
 a.internal {
-    color: blue;
+    color: #CC2D2D;
 }
 a.internal:hover {
     border-bottom-style: solid;
@@ -60,13 +60,9 @@ a.internal:hover {
     margin: -1em 0 0 0em;
 }
 #main {
-    margin: 0em 0em -0.375em 0em;  
+    margin: 0em 0em -0.375em 0em;
     padding: 1em 0 2em 2.25em;
     background-color: #F9F9F9;
-    border-top-style: solid; 
-    border-bottom-style: solid; 
-    border-width: 1pt; 
-    border-color:#000;
 }
 p {
     margin: 1em 1em 0.75em 0em;
@@ -74,22 +70,22 @@ p {
     width: 75%;
 }
 #main ul {
-    width: 60%;
+  width: 60%;
 }
 
 #logo {
     float: right;
 }
 h1 {
-    color: #555;
+    color: #750000;
     margin: 0.125em 0 0.25em 0;
     font-size: 400%; 
     font-weight: normal;
     letter-spacing: -2px;
 }
 h2 {  
-    color: #62834b; /* #516d3f; */
-    font-size: 175%;  
+    color: #750000;
+    font-size: 175%;
     margin: 0.75em 0 0 -0.07em;
     width: 60%;
 }
@@ -128,12 +124,14 @@ pre {
     margin: 1px 0em 1.5em 1.25em;
     padding: 0;
     background-color: #bddba9;
+    height: 100%;
 }
 #nav-container ul {
     margin: 0;
-    padding: 10px 7px 10px 7px;
+    padding: 10px 0px 10px 0px;
     background-color: #fafafa;
     list-style-type: none;
+    width:100%;
 }
 #nav-container li {
     margin: 0;
@@ -147,17 +145,12 @@ pre {
     font-size: 85%;
     padding: 5px 2em 5px 2em;
     margin: 2px 4px;
-    background-color: #cfe5c0;
-    border: 1px solid #000;
+    background-color: #C5C55B;
+    color: #750000;
 }
 #nav-container a:hover {
-    background-color: #e7f2df;
-}
-#nav-container a:visited {
-    color: #000;
-}
-#nav-container a:link {
-    color: #000;
+    background-color: #750000;
+    color: #C5C55B;
 }
 
 
