@@ -1,0 +1,3 @@
+[submodule "mc-stan.org/logos"]
+	path = mc-stan.org/logos
+	url = https://github.com/stan-dev/logos.git

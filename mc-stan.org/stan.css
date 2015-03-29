@@ -1,15 +1,3 @@
-/*
- * COLOR SCHEME
- *
- * http://colorschemedesigner.com/#0-51MtdtdEBII
- *
- *                DARK                    LIGHT
- * Primary:     +E9A614  9D7F3C  7F5804 +F9CB67  F9DFA8
- * Seconary A:  *E9C014  9D8A3C  7F6704 *F9DD67  F9E9A8
- * Secondary B:  E98614  9D703C  7F4604  F9B567  F9D3A8
- * Compl:        1E3E9D  303F6A  061A56  6D8AE3  A1B2E3
- */
-
 * {
     padding: 0;
     margin: 0;
@@ -17,22 +5,30 @@
     font-family: helvetica, lucida grande, arial, sans serif;  
     font-weight: 100;
     color: #000;                                      /* DEFAULT FONT */
-    border-color: #DDD;                               /* DEFAULT BORDER */
+    border-color: #590815;                            /* DEFAULT BORDER */
     border-width: 1pt;
 }
 body { 
     font-size: 95%;
-    background-color: #F9DD67;                       /* HEADER/FOOTER BG */
+    background-color: #FFF;                          /* HEADER/FOOTER BG */
 }
 #header {
     margin: 0;
-    padding: 0.75em 1em 0.25em 2em; 
-    background-color:  #F9DD67;                      /* HEADER BG */
-    border-bottom-style: solid; 
+}
+#header_back {
+    width: 500px;
+    padding: 0.75em 1em 0.25em 2em;
+    background-color: #B2001D;                       /* HEADER BG */
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: #590815;
+    -webkit-border-radius: 0 0 33px 0;
+    -moz-border-radius: 0 0 33px 0;
+    border-radius: 0 0 33px 0;
 }
 #foot {
     padding: 1em 0 1em 0em;
-    background-color:  #F9DD67;                      /* FOOTER BG */
+    background-color: #B2001D;                       /* FOOTER BG */
     border-top-style: solid;
 }
 #main {
@@ -77,22 +73,25 @@ p {
 }
 #logo {
     float: right;
+    height: 100px;
+    padding-right: 32px;
+    padding-top: 10px;
 }
 h1 {
     margin: 0.125em 0 0.1em 0;
-    font-size: 400%; 
+    font-size: 400%;
     font-weight: normal;
     letter-spacing: -2px;
-    color: #555;                                     /* HEADER FONT */
+    color: #FFFFFF;                                  /* HEADER FONT */
 }
 h2 {  
-    color: #7F5804;                                  /* H2 FONT */
+    color: #B2001D;                                  /* H2 FONT */
     font-size: 175%;  
     margin: 0.75em 0 -0.2em -0.07em;
     width: 60%;
 }
 h3 {  
-    color: #444;                                  /* H2 FONT */
+    color: #590815;                                  /* H3 FONT */
     font-size: 125%;  
     margin: 1em 0 -0.2em -0.07em;
     width: 60%;
@@ -148,12 +147,12 @@ pre {
     font-size: 85%;
     padding: 5px 2em 5px 2em;
     margin: 3px 0.5em 0 1.25em;
-    background-color:  #F9DD67;                       /* NAV BUTTON BG */
-    border: 1px solid #CCC;                           /* NAV BUTTON BORDER */
-    color: #333;                                      /* NAV BUTTON FONT */
+    background-color: #B2001D;                        /* NAV BUTTON BG */
+    border: 1px solid #590815;                        /* NAV BUTTON BORDER */
+    color: #FFFFFF;                                   /* NAV BUTTON FONT */
 }
 #nav-container a:hover {
-    background-color: #E9C014;                        /* NAV BUTTON HOVER BG */
-    color: #111;                                      /* NAV BUTTON HOVER FONT */
-    border-color: #BBB;                               /* NAV BUTTON HOVER BORDER */
+    background-color: #CCCCCC;                        /* NAV BUTTON HOVER BG */
+    color: #590815;                                   /* NAV BUTTON HOVER FONT */
+    border-color: #590815;                            /* NAV BUTTON HOVER BORDER */
 }
